@@ -3,8 +3,8 @@ kbd = Keyboard.new
 
 # Initialize GPIO assign
 kbd.init_pins(
-  [ 9, 5, 8, 4, 7, 17, 6, 16 ],
-  [ 0, 20, 22, 26, 27, 28, 29 ]
+  [ 9, 5, 8, 4, 7, 17, 6, 16 ],   # row0, row1,... respectively
+  [ 0, 20, 22, 26, 27, 28, 29 ]   # col0, col1,... respectively
 )
 
 # default layer should be added at first
