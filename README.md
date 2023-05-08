@@ -1,6 +1,6 @@
 # prk_tg4x
-keymap.rb for TG4x keyboard on PRK
 
+keymap.rb for TG4x keyboard on PRK for French guy :)
 
 PRK Firmware 0.9.20 (20221226 revision ac04670)
 
