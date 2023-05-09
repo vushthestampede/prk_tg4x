@@ -65,7 +65,7 @@ kbd.add_layer :raise, %i[
 #                   key name        Array of Keycode       or Layer Symbol to be held    threshold(ms)     threshold(ms)
 #                                   or Proc                or Proc which will run        to consider as    to consider as
 #                                   when you click         while you keep press          `click the key`   `hold the key`
-kbd.define_mode_key :SPC_RAISE,      [ :KC_SPC,             :raise,                       200,              250 ]
-kbd.define_mode_key :SPC_LOWER,      [ :KC_SPC,             :lower,                       200,              250 ]
+kbd.define_mode_key :SPC_RAISE,      [ :KC_SPC,             :raise,                       250,              300 ]
+kbd.define_mode_key :SPC_LOWER,      [ :KC_SPC,             :lower,                       250,              300 ]
 
 kbd.start!
