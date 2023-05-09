@@ -54,10 +54,10 @@ kbd.add_layer :lower, %i[
 #`---------'---------'---------'----------------------'----------------'---------'-------'-------'-------'
 
 kbd.add_layer :raise, %i[
-  KC_1     KC_2    KC_3      KC_4                KC_5     KC_6   KC_7        KC_8     KC_9     KC_0     KC_MINS       KC_NO      KC_EQL
+  KC_1     KC_2    KC_3      KC_4                KC_5     KC_6   KC_7        KC_8     KC_9     KC_0     KC_MINS   KC_NO          KC_EQL
   KC_NO    KC_NO   KC_GRAVE  KC_NO               KC_NO    KC_NO  KC_NO       KC_NO    KC_LBRC  KC_RBRC  KC_QUOTE  KC_NONUS_HASH  KC_NO
-  KC_NO    KC_NO   KC_LSFT   KC_NONUS_BACKSLASH  KC_NO    KC_NO  KC_NO       KC_NO    KC_M     KC_COMM  KC_DOT        KC_SLSH    KC_KB_VOLUME_UP    KC_RSFT
-  KC_NO    KC_NO   KC_LCTL   KC_LGUI             KC_LALT  KC_NO  KC_KB_MUTE  KC_TRNS  KC_NO    KC_NO    KC_RALT       KC_NO      KC_KB_VOLUME_DOWN  KC_NO
+  KC_NO    KC_NO   KC_LSFT   KC_NONUS_BACKSLASH  KC_NO    KC_NO  KC_NO       KC_NO    KC_M     KC_COMM  KC_DOT    KC_SLSH        KC_KB_VOLUME_UP    KC_RSFT
+  KC_NO    KC_NO   KC_LCTL   KC_LGUI             KC_LALT  KC_NO  KC_KB_MUTE  KC_TRNS  KC_NO    KC_NO    KC_RALT   KC_NO          KC_KB_VOLUME_DOWN  KC_NO
 ]
 
 #
