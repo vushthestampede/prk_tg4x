@@ -14,9 +14,9 @@ kbd.init_pins(
 #|-------'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-------|
 #|  Tab    |   q   |   s   |   d   |   f   |   g   |   h   |   j   |   k   |   l   |   m   |    Enter    |
 #|---------'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----------|
-#|  Shift     |   w   |   x   |   c   |   v   |   b   |   n   |   ,   |   ;   |   :   |   up  |   Shift  |
+#|  Shift     |   w   |   x   |   c   |   v   |   b   |   n   |   ,   |   ;   |   :   |   Up  |   Shift  |
 #|---------,--'------,'-------',------'-------'-------'-------'-------',------'--,----'--,----'--,-------|
-#|   Ctrl  |   Gui   |   Alt   |   Spc/Lower          |   Spc/Raise    |   Del   | left  |  down | right |
+#|  Ctrl   |   Gui   |   Alt   |   Spc/Lower          |   Spc/Raise    |   Del   | Left  | Down  | Right |
 #`---------'---------'---------'----------------------'----------------'---------'-------'-------'-------'
 
 kbd.add_layer :base, %i[
@@ -31,9 +31,9 @@ kbd.add_layer :base, %i[
 #|-------'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-------|
 #|         |       |       |       |       |       |       |       |       |       |       |             |
 #|---------'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----------|
-#| Caps Lock  | Pause |       |       |       |       |       |       |       |       | Vol + |   Shift  |
+#|  Caps Lock | Pause |       |       |       |       |       |       |       |       | Vol + |   Shift  |
 #|---------,--'------,'-------',------'-------'-------'-------'-------',------'--,----'--,----'--,-------|
-#|   Ctrl  |   Gui   |   Alt   |   Spc/Lower          |  Print Screen  |  RCtrl  |       | Vol - |       |
+#|  Ctrl   |   Gui   |   Alt   |   Spc/Lower          |  Print Screen  |  RCtrl  |       | Vol - |       |
 #`---------'---------'---------'----------------------'----------------'---------'-------'-------'-------'
 
 kbd.add_layer :lower, %i[
@@ -48,14 +48,14 @@ kbd.add_layer :lower, %i[
 #|-------'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-,-----'-------|
 #|         |   ²   |       |       |       |       |       |   ^   |   $   |   ù   |   *   |             |
 #|---------'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----'--,----------|
-#|   Shift    |   <   |       |       |       |       |   ,   |   ;   |   :   |   !   | Vol + |   Shift  |
+#|  Shift     |   <   |       |       |       |       |   ,   |   ;   |   :   |   !   | Vol + |   Shift  |
 #|---------,--'------,'-------',------'-------'-------'-------'-------',------'--,----'--,----'--,-------|
 #|  Ctrl   |   Gui   |   Alt   |   Mute               |   Spc/Raise    |  AltGr  |       | Vol - |       |
 #`---------'---------'---------'----------------------'----------------'---------'-------'-------'-------'
 
 kbd.add_layer :raise, %i[
   KC_1     KC_2    KC_3      KC_4                KC_5     KC_6   KC_7        KC_8       KC_9     KC_0     KC_MINS       KC_NO          KC_EQL
-  KC_NO    KC_NO   KC_GRAVE  KC_NO               KC_NO    KC_NO  KC_NO       KC_NO      KC_LBRC  KC_RBRC  KC_SEMICOLON  KC_NONUS_HASH  KC_TRNS
+  KC_NO    KC_NO   KC_GRAVE  KC_NO               KC_NO    KC_NO  KC_NO       KC_NO      KC_LBRC  KC_RBRC  KC_SEMICOLON  KC_NONUS_HASH  KC_NO
   KC_NO    KC_NO   KC_LSFT   KC_NONUS_BACKSLASH  KC_NO    KC_NO  KC_NO       KC_NO      KC_M     KC_COMM  KC_DOT        KC_SLSH        KC_KB_VOLUME_UP    KC_RSFT
   KC_NO    KC_NO   KC_LCTL   KC_LGUI             KC_LALT  KC_NO  KC_KB_MUTE  KC_TRNS    KC_NO    KC_NO    KC_RALT       KC_NO          KC_KB_VOLUME_DOWN  KC_NO
 ]
