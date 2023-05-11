@@ -8,7 +8,7 @@ keymap.rb for TG4x v2.1 keyboard on PRK for French guy :)
 - Micro-controlleur : "Blok" (Boardsource) : https://kbd.news/Blok-controller-1469.html
 - RP2040 : Raspberry Pi Pico
 - Source code pour TG4x : https://github.com/MythosMann/tg4x
-- Contrairement à QKM, plus besoin de compiler, ni flasher
+- Contrairement à QKM, plus besoin de compiler, ni flasher !
 
 ---
 PRK Firmware 0.9.20 (20221226 revision ac04670)
