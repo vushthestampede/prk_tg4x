@@ -14,6 +14,8 @@ keymap.rb for TG4x v2.1 keyboard on PRK for French guy :)
 - Unlike QKM, no need to compile or flash!
 
 ---
+My version :
+
 PRK Firmware 0.9.20 (20221226 revision ac04670)
 
 Welcome to PRK Firmware!
