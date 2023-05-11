@@ -5,8 +5,7 @@ keymap.rb for TG4x v2.1 keyboard on PRK for French guy :)
 ---
 # keymap.rb pour RP2040 sur PRK
 - Suivez ce tuto : https://github.com/picoruby/prk_firmware/wiki/Tutorial
-- Micro-controlleur : "Blok" (Boardsource) : https://kbd.news/Blok-controller-1469.html
-- RP2040 : Raspberry Pi Pico
+- Micro-controlleur RP2040 (Raspberry Pi Pico) : "Blok" (Boardsource) : https://kbd.news/Blok-controller-1469.html
 - Source code pour TG4x : https://github.com/MythosMann/tg4x
 - QMK keycodes : https://docs.qmk.fm/#/keycodes
 - Contrairement à QKM, plus besoin de compiler, ni flasher !
